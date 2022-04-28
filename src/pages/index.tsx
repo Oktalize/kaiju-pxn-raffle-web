@@ -56,7 +56,7 @@ const Home: NextPage = () => {
           p="30px"
           mb="60px"
           textAlign="left"
-          width="600px"
+          maxWidth="600px"
         >
           <Text mb="15px">
             This tool runs the same script that Augminted used to pick the
