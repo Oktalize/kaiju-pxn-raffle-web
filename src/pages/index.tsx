@@ -116,7 +116,7 @@ const Home: NextPage = () => {
       <Container maxW="100%">
         <Flex justify="center" w="100%">
           <VStack mb="30px">
-            <Button onClick={connectAndRun} mb={16}>
+            <Button onClick={connectAndRun} color={"green.300"} mb={16}>
               See Raffle Results
             </Button>
             {showResults && (
