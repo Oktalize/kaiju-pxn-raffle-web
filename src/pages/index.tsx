@@ -129,8 +129,8 @@ const Home: NextPage = () => {
                 <Table variant="simple">
                   <Thead>
                     <Tr>
-                      <Th>Entry #</Th>
-                      <Th>Address</Th>
+                      <Th borderColor="gray.700">Entry #</Th>
+                      <Th borderColor="gray.700">Address</Th>
                     </Tr>
                   </Thead>
                   <Tbody>
