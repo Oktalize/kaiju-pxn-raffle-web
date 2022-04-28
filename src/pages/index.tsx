@@ -43,7 +43,7 @@ const Home: NextPage = () => {
   };
 
   return (
-    <Box color="gray.200">
+    <Box color="gray.200" style={{ backgroundColor: "#1A202C" }}>
       <Flex justifyContent="center" p="10px">
         <Heading pt="20px" size="lg" mb="30px" textAlign="center" color="white">
           Kaiju PXN Raffle Results
