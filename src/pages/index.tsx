@@ -132,14 +132,32 @@ const Home: NextPage = () => {
                     <Tr>
                       <Th borderColor="gray.700">Entry #</Th>
                       <Th borderColor="gray.700">Address</Th>
+                      <Th borderColor="gray.700">Total</Th>
                     </Tr>
                   </Thead>
                   <Tbody>
                     {results?.map(
-                      ({ address, entry }: { address: any; entry: any }) => (
+                      ({
+                        address,
+                        entry,
+                        total,
+                      }: {
+                        address: any;
+                        entry: any;
+                        total: any;
+                      }) => (
                         <Tr key={entry}>
                           <Td borderColor="gray.700">{entry}</Td>
-                          <Td borderColor="gray.700">{address}</Td>
+                          <Td
+                            borderColor="gray.700"
+                            textAlign="right"
+                            fontFamily="monospace"
+                          >
+                            {address}
+                          </Td>
+                          <Td borderColor="gray.700" textAlign="right">
+                            {total}
+                          </Td>
                         </Tr>
                       )
                     )}
