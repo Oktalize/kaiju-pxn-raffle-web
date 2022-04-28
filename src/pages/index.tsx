@@ -137,8 +137,8 @@ const Home: NextPage = () => {
                     {results?.map(
                       ({ address, entry }: { address: any; entry: any }) => (
                         <Tr key={entry}>
-                          <Td>{entry}</Td>
-                          <Td>{address}</Td>
+                          <Td borderColor="gray.700">{entry}</Td>
+                          <Td borderColor="gray.700">{address}</Td>
                         </Tr>
                       )
                     )}
