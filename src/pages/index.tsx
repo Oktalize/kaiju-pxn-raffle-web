@@ -49,13 +49,14 @@ const Home: NextPage = () => {
           Kaiju PXN Raffle Results
         </Heading>
       </Flex>
-      <Flex p="10px" mx="516px">
+      <Flex p="10px" justifyContent="center">
         <Box
           border="1px"
           borderColor="gray.600"
           p="30px"
           mb="60px"
           textAlign="left"
+          width="600px"
         >
           <Text mb="15px">
             This tool runs the same script that Augminted used to pick the
